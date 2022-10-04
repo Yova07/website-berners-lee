@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 40%;
+    min-width: 750px;
+    padding: 0;
+    margin: 30px auto;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+::selection {
+    background-color: rgb(192, 192, 192);
+}
+
+/*----------General----------*/
+
+h2, h3 {
+    color: rgb(105, 105, 105);
+    font-weight: 500;
+}
+p {
+    font-weight: 300;
+    word-spacing: 7px;
+    font-size: 1.1rem;
+}
+
+
+/*----------Header----------*/
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 0px 3px rgb(167, 167, 167);
+    
+}
+header h1 {
+    color: rgb(224, 0, 0);
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: -10px;
+}
+header p {
+    margin-bottom: 40px;
+    text-align: justify;
+}
+header img {
+    border: 5px solid rgb(185, 185, 185);
+    border-radius: 50%;
+    width: 30%;
+}
+header a {
+    background-color: rgb(224, 0, 0);
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+header a:hover {
+    box-shadow: 0px 0px 10px rgb(167, 167, 167);
+}
+
+/*----------Links----------*/
+
+#link {
+    background-color: white;
+    padding: 80px 0;
+    margin: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgb(167, 167, 167);
+    
+}
+#link ul {
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+}
+#link li {
+    font-size: 25px;
+    padding: 0 40px;
+    list-style: none;
+}
+#link a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    display: inline-block;
+    opacity: 30%;
+    text-align: center;
+    transition: 0.1s;
+}
+#link a:hover {
+    opacity: 60%;
+}
+#link i {
+    font-size: 40px;
+} 
+
+/*----------Movies----------*/
+
+#movies {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgb(167, 167, 167);
+    padding-bottom: 50px;
+}
+#movies h2 {
+    text-align: center;
+    padding: 50px;
+}
+#movies section {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#movies a {
+    width: 40%;
+    box-shadow: 0px 0px 3px rgb(167, 167, 167) ;
+    transition: 0.1s;
+}
+#movies a:hover {
+    box-shadow: 0px 0px 15px rgb(167, 167, 167);
+}
+#movies .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+#movies p {
+    text-align: justify;
+}
+
+
+
